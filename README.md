@@ -2,7 +2,6 @@
 
 ![Oracle Database](https://img.shields.io/badge/Database-Oracle-F80000?style=flat&logo=oracle&logoColor=white)
 ![Language](https://img.shields.io/badge/Language-PL%2FSQL-orange)
-![Course](https://img.shields.io/badge/Course-TEB1103-blue)
 
 ## 📌 Project Overview
 This project is a relational database management system designed for **MM2 Screen Management Sdn. Bhd.** (MM Cineplexes). It streamlines cinema operations ranging from ticketing and movie scheduling to staff management, inventory control, and franchise administration.
