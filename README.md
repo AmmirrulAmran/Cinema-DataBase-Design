@@ -1,10 +1,13 @@
-MM2 Cinema Management System (Oracle Database)
-📌 Project Overview
-This project involves the design and implementation of a relational database system for MM2 Screen Management Sdn. Bhd. (MM Cineplexes). The database is designed to manage various aspects of cinema operations, including franchise management, staff administration, movie screenings, ticketing, inventory control, and customer data.
 
-The system is built using Oracle SQL and includes comprehensive scripts for creating the schema, populating data, and managing database objects.
+# MM2 Cinema Management System (Oracle Database)
 
-📂 Project Structure
+##📌 Project Overview
+
+*This project involves the design and implementation of a relational database system for MM2 Screen Management Sdn. Bhd. (MM Cineplexes). The database is designed to manage various aspects of cinema operations, including franchise management, staff administration, movie screenings, ticketing, inventory control, and customer data.
+
+*The system is built using Oracle SQL and includes comprehensive scripts for creating the schema, populating data, and managing database objects.
+
+##📂 Project Structure
 The project consists of the following key files:
 
 Create.sql: Contains DDL (Data Definition Language) commands to create all tables with appropriate data types, primary keys, foreign keys, and constraints (e.g., CHECK, UNIQUE).
@@ -15,7 +18,7 @@ Drop.sql: A cleanup script to drop all tables and constraints in the correct ord
 
 Cinema EERD.jpg: The Entity Relationship Diagram (ERD) visualizing the database structure.
 
-🏗️ Database Schema Scope
+##🏗️ Database Schema Scope
 The database supports the following key functional areas:
 
 1. Person & Staff Management
@@ -60,12 +63,12 @@ Payment: Transaction records and refund statuses.
 
 Review: Customer feedback and ratings.
 
-⚙️ Prerequisites
+##⚙️ Prerequisites
 Oracle Database (11g, 12c, 19c, or later)
 
 Oracle SQL Developer or any SQL command-line interface (SQL*Plus).
 
-🚀 Installation & Usage Instructions
+##🚀 Installation & Usage Instructions
 To set up the database environment, run the SQL scripts in the following specific order to avoid constraint violations:
 
 Step 1: Clean Up (Optional)
@@ -93,16 +96,18 @@ SQL
 
 SELECT * FROM Cinema;
 SELECT * FROM Person;
-📝 Key Features & Constraints
+##📝 Key Features & Constraints
 Data Integrity: Extensive use of Foreign Keys to ensure relationships (e.g., a Ticket must belong to a valid Movie and Hall).
 
 Data Validation: CHECK constraints are used for fields like Staff_EmploymentStatus (Full-Time, Part-Time) and Ticket_Status (Booked, Cancelled).
 
 Specialization: The design uses a supertype/subtype model for People (Person -> Staff/Customer) and Products (Product -> Food/Drink) to efficiently organize data.
 
-📜 License & Course Info
+##📜 License & Course Info
 Course: TEB1103 (CS) Data and Information Management
 
 Institution: Universiti Teknologi PETRONAS
 
 Date: June 2025
+
+
