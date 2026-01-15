@@ -16,8 +16,7 @@ The system is built using **Oracle SQL** and strictly adheres to relational data
 ├── Create.sql           # DDL script to create tables, constraints, and relationships
 ├── InsertCode.sql       # DML script to populate the database with sample data
 ├── Drop.sql             # Script to drop all tables and clean the schema
-├── DIM_PART2.pdf        # Detailed project documentation and data dictionary
-└── ERD_MM2_Cinema.pdf   # Entity Relationship Diagram (ERD) visualization
+└── Cinema EERD.jpg      # Entity Relationship Diagram (ERD) visualization
 ```
 
 ---
